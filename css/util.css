@@ -2953,9 +2953,9 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 -----------------------------------------------------------
 */
 .tit1 {
-	font-family: Poppins;
+	font-family: Montserrat;
 	font-weight: 700;
-	font-size: 90px;
+	font-size: 70px;
 	line-height: 1.1;
 	color: white;
 	text-transform: uppercase;
@@ -3007,7 +3007,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 1.2;
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 6px;
 	word-spacing: 6px;
@@ -3057,8 +3057,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 -----------------------------------------------------------
 */
 .txt1 {
-	font-family: Courgette;
-	font-size: 60px;
+	font-family: Montserrat;
+	font-size: 40px;
 	line-height: 1.1;
 	color: white;
 }
