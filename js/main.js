@@ -195,3 +195,30 @@
     
 
 })(jQuery);
+
+
+
+
+/*Script botones */
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
+
+$('#myTooltip').on('hidden.bs.tooltip', function () {
+  // do something...
+})
+
+
+
+ // Force a hover to see the effect
+var share = document.querySelector('.share');
+
+setTimeout(function () {
+  share.classList.add("hover");
+}, 1000);
+
+setTimeout(function () {
+  share.classList.remove("hover");
+}, 3000);
