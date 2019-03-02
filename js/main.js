@@ -222,3 +222,14 @@ setTimeout(function () {
 setTimeout(function () {
   share.classList.remove("hover");
 }, 3000);
+
+
+
+
+
+$('.btn-text-pop').click(function(event) {
+    event.preventDefault();
+    $(this).popover({html:true});
+});
+
+$('.btn-text-too').tooltip();

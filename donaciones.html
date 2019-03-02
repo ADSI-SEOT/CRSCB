@@ -198,13 +198,13 @@
 
 
 						<div class="social-buttons">
-							<a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
-								<botton  class="social-button__inner" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+							<a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook" data-toggle="modal" data-target="#aqd" >
+								<botton  class="social-button__inner" >
 									<i class="">¿A que donar?</i>
 								</botton>
 							</a>
 							<a href="#" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
-								<span class="social-button__inner">
+								<span class="social-button__inner" data-toggle="modal" data-target="#pqd">
 									<i class="">¿Porque Donar?</i>
 								</span>
 							</a>
@@ -218,7 +218,6 @@
 									<i class="">Control Misional</i>
 								</span>
 							</a>
-
 						</div>
 
 
@@ -233,6 +232,71 @@
 			<div class="wrap-slick1-dots"></div>
 		</div>
 	</section>
+
+
+
+<!--Modales -->
+
+
+
+	<!--A que Donar-->
+	<div class="modal fade" id="aqd" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Escoge una de las siguientes campañas</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>» Fondo de atención a emergencias</p>
+					<p>» Unidad móvil en gestión ambiental del riesgo</p>
+					<p>» Movilidad humana y flujos mixtos Migratorios</p>
+					<p>» Niños y niñas victimas de la violencia</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--Porque Donar-->
+	<div class="modal fade" id="pqd" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+				<p>
+
+				Donar es un aporte indispensable para impulsar los proyectos y acciones humanitarias con las que aliviamos el sufrimiento humano. 
+				</p>
+
+				<p>
+					Sé un Guardián de vida, haz parte de la Cruz Roja Colombiana Seccional Cundinamarca y Bogotá y ayúdanos  a llevar nuestra misión institucional a las personas y comunidades más vulnerables. 	
+				</p>			
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
 
 
 	<!-- formulario -->
@@ -328,6 +392,7 @@
 
 
 <!-- Imagen parallax Migrantes -->
+
 		<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url(images/Cruz/Donaciones/donacion3.jpg);padding-top: 650px;">
 			<span class="tit2 p-l-15 p-r-15">
 			
@@ -338,175 +403,6 @@
 			</h3>
 		</div>
 	
-
-	<!-- Preguntas-->
-	<section class="section-contact bg1-pattern p-t-90 p-b-113">
-		<div class="container">
-			<div class="row" style="margin-right: 0px;">
-				<div class="col-10">
-					<div class="pic-blo4 hov-img-zoom bo-rad-10 pos-relative">
-						<a href="blog-detail.html">
-							<img src="images/Cruz/Donaciones/donacion.jpg" alt="IMG-BLOG">
-						</a>
-
-						<div class="date-blo4 flex-col-c-m">
-							<span class="txt30 m-b-4">
-								28
-							</span>
-
-							<span class="txt31">
-								Nov, 2018
-							</span>
-						</div>
-					</div>
-
-
-
-					<div class="text-blo4 p-t-33">
-						<h4 class="p-b-16">
-							<a href="" class="tit9">Donar, como una costumbre</a>
-						</h4>
-						<p style="text-align: justify;">
-							Porque hay mucha gente que necesita de esta ayuda, no podemos esperar a que nos pidan que haya que hacerlo, sino que la donación debería formar parte de nuestros hábitos, de nuestras costumbres. Como juntarnos con amigos cada jueves, como el mate que compartís con tu viejo, como el paseo en bicicleta de los domingos a la tarde… Sumar una costumbre más a la vida de cada uno de nosotros. Y saber que con ese gesto, podemos ayudar a alguien que nos necesita.
-						</p>
-					</div>
-
-				</div>
-				<div class="col-md-2">
-					<div class="categories">
-						<h4 class="txt33 bo5-b p-b-35 p-t-58">
-							¿Preguntas?
-						</h4>
-
-						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#Modal1">
-							¿Que Beneficios Obtengo?
-						</button>
-
-						<!-- Modal -->
-						<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<div class="modal-body">
-
-										<P>Usted gozará de la deducción tributaria prevista en la Ley 488 /98; es decir, podrá deducir de su impuesto de renta el 125% del valor de la misma para el periodo gravable del año en curso.</P><br>
-										<P>Una vez recibida su donación por parte de nuestra Institución, le haremos llegar a su empresa el Certificado de Donación, atendiendo lo dispuesto en el Art. 125-1 del Estatuto Tributario. </P>
-
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<hr>
-
-						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#Modal2">
-							¿Porque Donar? 
-						</button>
-
-						<!-- Modal -->
-						<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<div class="modal-body">
-
-										<p>Está aliviando el sufrimiento humano de alguien que en este instante está esperando por su ayuda.</p><br>
-
-										<p>Está aportando al movimiento humanitario más gran del mundo.
-										Tiene la seguridad y el respaldo que le brinda la experiencia, profesionalismo y reconocimiento de la Cruz Roja	</p>									
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<hr>
-
-
-						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#Modal3">
-							¿Qué puedo donar?
-						</button>
-
-						<!-- Modal -->
-						<div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<div class="modal-body">
-
-										<p>Para que su donación sea más efectiva le sugerimos los paquetes básicos más necesarios para una persona en condición de vulnerabilidad que a continuación describimos:</p><br>
-										<p>Hábitat: Cobija sencilla, colchoneta sencilla, almohada.</p><br>
-										<p>Para clima caliente: Hamaca, sábana, toldillo.</p><br>
-										<p>Hábitat especial: Carpa para Albergue tipo Jaguar de 4.20 x 4.65 y altura libre de 2.50 mts. con 6 ventanillas en angeo y tapa ventanas con cremalleras central, 4 cruces rojas estampadas, armable y desarmable.+ Kit Hábitat.</p><br>
-										<p>Aseo: Toallas higiénicas, papel higiénico, jabón para baño, cepillo de dientes, crema dental pequeña, máquina de afeitar, desodorante, toalla, paños húmedos.</p><br>
-										<p>Cocina: Olla grande, olla pequeña, chocolatera, sartén, tres utensilios (cuchillo, cucharòn sopa, cuchara).</p>
-										<p>Mesa: 5 platos hondos, 5 platos pandos, 6 pocillos (plásticos) cubiertos (metal).</p><br>
-										<p>Bebés: Shampoo, jabón suave, crema antipañalitis, pañales, toallas y pañitos húmedos.</p><br>
-										<p>Alimentos: Arroz, lentejas, frijol, arveja verde, aceite, sal, azúcar, panela, pasta, café, chocolate, enlatados (atún o sardinas).</p><br>
-
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<hr>							
-
-						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#Modal4">
-							¿A través de qué medios puedo donar?
-						</button>
-
-						<!-- Modal -->
-						<div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<div class="modal-body">
-										<p>Diligenciando cualquiera de los dos formularios que encontrará en la parte superior de esta página</p><br>
-										<p>A través de la Cuenta Corriente Banco de Bogotá 078-38186-0</p><br>
-										<p>Directamente en la Cruz Roja, acercándose a la sede de la Carrera 60 Nª 63 - 81 (Centro de Salvamento Acuático - Cruz Roja)	</p><br>
-
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>						
-
-
-				
-			</div>
-		</div>	
-	</section>
 
 
 
