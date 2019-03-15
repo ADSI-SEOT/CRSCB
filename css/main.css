@@ -486,12 +486,12 @@ input[type="date" i] {
 .wrap-menu-header {
   position: absolute;
   width: 100%;
-  height: 120px;
+  height: 100px;
   top: 0;
   left: 0;
   z-index: 100;
-  border-top: 5px solid #ec1d25;
-  background: color white;
+  border-top: 5px solid white;
+  background-color: white;
 }
 
 .wrap_header {
@@ -503,7 +503,7 @@ input[type="date" i] {
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
-  background-color: transparent;
+  background-color: white;
   justify-content: space-between;
   align-items: center;
 }
@@ -550,6 +550,7 @@ input[type="date" i] {
   align-items: center;
   justify-content: center;
   height: 100%;
+  
 }
 
 .main_menu {
@@ -560,6 +561,7 @@ input[type="date" i] {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .main_menu li {
