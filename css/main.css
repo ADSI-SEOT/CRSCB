@@ -492,6 +492,7 @@ input[type="date" i] {
   z-index: 100;
   border-top: 5px solid white;
   background-color: white;
+
 }
 
 .wrap_header {
@@ -663,7 +664,7 @@ input[type="date" i] {
 */
 .social a {
   font-size: 15px;
-  color: white;
+/*  color: black;*/
 }
 
 .header-fixed .social a {
